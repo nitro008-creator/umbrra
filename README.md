@@ -1,5 +1,5 @@
 # umbrra
-Umbrra v1.2: A professional ADB-based post-exploitation framework for Android security auditing. Features automated data exfiltration, stealth mirroring, and forensic trace removal.
+Umbrra v1.2: ADB-based post-exploitation framework for Android security auditing. Features automated data exfiltration, stealth mirroring, and forensic trace removal.
 
 
 
@@ -13,8 +13,8 @@ Umbrra is a command-line interface (CLI) framework designed for advanced Android
 
 ## Prerequisites
 - Python 3.8+
-- ADB binaries (located in `./ADB/`)
-- Scrcpy binaries (located in `./ADB/` for mirroring)
+- ADB binaries (located in `umbrra/ADB/`)
+- Scrcpy binaries (located in `umbrra/ADB/` for mirroring)
 
 ## Installation
 ```bash
