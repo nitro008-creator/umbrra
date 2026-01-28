@@ -87,7 +87,6 @@ class GhostADB:
         return res.stdout.strip()
 
     def hard_cleanup(self):
-            """Максимально глубокая очистка следов на устройстве"""
             console.print(f"[bold yellow]\n[!][/] Starting fully cleanup")
             
             commands = [
@@ -209,7 +208,6 @@ class GhostADB:
             
             for key, value in found:
                 val = value.strip().replace('"', '')
-                # Отсеиваем системный мусор
                 if val and val.lower() != "null" and "String" not in val and len(val) > 1:
                     notifs.append(f"[+] {key.split('.')[-1]}: {val}")
 
@@ -366,7 +364,6 @@ def main():
             if cmd_line.lower() == 'cleanup':
                 ghost.hard_cleanup()
                 continue
-            # ----------------------
 
             if cmd_line.lower() == 'help':
                 parser.print_help()
@@ -387,4 +384,5 @@ def main():
         console.print(f"[bold green][+][/] Ghosted.")
         
 if __name__ == "__main__":
+
     main()
