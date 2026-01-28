@@ -20,7 +20,7 @@ Umbrra is a command-line interface (CLI) framework designed for advanced Android
 
 ## Installation
 ```bash
-git clone [https://github.com/username/umbrra.git](https://github.com/username/umbrra.git)
+git clone https://github.com/nitro008-creator/umbrra
 cd umbrra
 pip install rich
 ```
