@@ -1,6 +1,8 @@
 # umbrra
 Umbrra v1.2: ADB-based post-exploitation framework for Android security auditing. Features automated data exfiltration, stealth mirroring, and forensic trace removal.
+<img width="975" height="479" alt="Screenshot_23" src="https://github.com/user-attachments/assets/f0a0a759-6428-425f-8c38-96fec25b6a50" />
 
+<img width="961" height="479" alt="Screenshot_24" src="https://github.com/user-attachments/assets/9c1f9858-eead-4d37-ab1c-b3595fd588c4" />
 
 
 Umbrra is a command-line interface (CLI) framework designed for advanced Android administration and security auditing via ADB (Android Debug Bridge).
